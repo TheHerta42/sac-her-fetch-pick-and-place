@@ -1,0 +1,32 @@
+# Model weights (~3.4 MB each; distributed via GitHub Release, not tracked)
+*.zip
+model_2/
+logsv1/
+logsv2/
+logsv3/
+logs_dr_v1/
+old_model/
+
+# NOTE: evaluations/ IS tracked — it holds the four EvalCallback .npz files
+# (~86 KB total). They are the first-hand record of how success rate evolved
+# during training, so keep them out of the ignore rules below.
+
+# TensorBoard event files (~74 MB total). The committed PNGs in results/ are
+# their output; drop this rule if you want to ship the raw logs.
+tensorboard/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+mujoco_env/
+
+# Third-party model library (2.3 GB, clone separately)
+mujoco_menagerie/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

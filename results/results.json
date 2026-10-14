@@ -1,0 +1,95 @@
+{
+  "episodes": 300,
+  "target_range": 0.15,
+  "seed": 42,
+  "baseline": "v3 (6M steps, no DR)",
+  "results": {
+    "standard": {
+      "v1 (3M steps, no DR)": {
+        "n_episodes": 300,
+        "success_rate": 100.0,
+        "n_success": 300,
+        "mean_reward": -8.736666666666666,
+        "std_reward": 3.8297940182498356,
+        "mean_length": 9.736666666666666,
+        "mean_success_length": 9.736666666666666
+      },
+      "v3 (6M steps, no DR)": {
+        "n_episodes": 300,
+        "success_rate": 100.0,
+        "n_success": 300,
+        "mean_reward": -8.93,
+        "std_reward": 3.7574503766960565,
+        "mean_length": 9.93,
+        "mean_success_length": 9.93
+      },
+      "dr_v1 (9M steps, DR)": {
+        "n_episodes": 300,
+        "success_rate": 100.0,
+        "n_success": 300,
+        "mean_reward": -9.0,
+        "std_reward": 3.7850583438920284,
+        "mean_length": 10.0,
+        "mean_success_length": 10.0
+      }
+    },
+    "dr_trained": {
+      "v1 (3M steps, no DR)": {
+        "n_episodes": 300,
+        "success_rate": 98.33333333333333,
+        "n_success": 295,
+        "mean_reward": -10.266666666666667,
+        "std_reward": 7.46607140484353,
+        "mean_length": 11.25,
+        "mean_success_length": 10.59322033898305
+      },
+      "v3 (6M steps, no DR)": {
+        "n_episodes": 300,
+        "success_rate": 99.33333333333333,
+        "n_success": 298,
+        "mean_reward": -9.646666666666667,
+        "std_reward": 5.513180167159019,
+        "mean_length": 10.643333333333333,
+        "mean_success_length": 10.379194630872483
+      },
+      "dr_v1 (9M steps, DR)": {
+        "n_episodes": 300,
+        "success_rate": 99.66666666666667,
+        "n_success": 299,
+        "mean_reward": -9.29,
+        "std_reward": 4.548908293938961,
+        "mean_length": 10.286666666666667,
+        "mean_success_length": 10.153846153846153
+      }
+    },
+    "dr_severe": {
+      "v1 (3M steps, no DR)": {
+        "n_episodes": 300,
+        "success_rate": 79.0,
+        "n_success": 237,
+        "mean_reward": -22.743333333333332,
+        "std_reward": 16.817970217069067,
+        "mean_length": 23.543333333333333,
+        "mean_success_length": 16.51054852320675
+      },
+      "v3 (6M steps, no DR)": {
+        "n_episodes": 300,
+        "success_rate": 86.33333333333333,
+        "n_success": 259,
+        "mean_reward": -18.56,
+        "std_reward": 14.975749285650673,
+        "mean_length": 19.423333333333332,
+        "mean_success_length": 14.583011583011583
+      },
+      "dr_v1 (9M steps, DR)": {
+        "n_episodes": 300,
+        "success_rate": 91.33333333333333,
+        "n_success": 274,
+        "mean_reward": -16.046666666666667,
+        "std_reward": 13.044711146241946,
+        "mean_length": 16.96,
+        "mean_success_length": 13.824817518248175
+      }
+    }
+  }
+}
